@@ -1,0 +1,26 @@
+### YamlMime:Hub
+title: Microsoft Forms管理员
+summary: 借助Microsoft Forms，可以轻松创建调查、测验、投票和其他类型的表单。 使用几乎任何 Web 浏览器或移动设备，你可以邀请用户回复你的表单、在提交时查看实时结果、使用内置分析来评估响应，以及将结果导出到 Excel 以进行其他分析或评分。 表单正式面向 Office 365 教育版客户、Microsoft 365商业应用客户和具有Microsoft 帐户（Hotmail、Live 或 Outlook.com）的客户提供。
+brand: m365
+metadata:
+  title: Microsoft Forms管理员
+  description: Microsoft Forms管理员概述
+  ms.service: Forms Admin
+  ms.topic: hub-page
+  audience: ITPro
+  author: samanro
+  ms.author: samanro
+  ms.date: 11/03/2021
+  localization_priority: Priority
+additionalContent:
+  sections:
+    - title: 面向 IT 专业人员
+      items:
+        - title: 管理员
+          summary: 了解窗体管理员设置以及如何根据组织需求配置表单
+          url: /microsoft-forms/administrator-settings-microsoft-Forms
+    - title: 面向其他受众
+      items:
+        - title: 最终用户
+          summary: 创建、发送和分析表单、测验或投票
+          url: 'https://support.microsoft.com/forms'

@@ -1,0 +1,14 @@
+- name: Microsoft Forms管理员
+  href: index.yml
+- name: 用于 Microsoft Forms 的管理员设置
+  href: /microsoft-forms/administrator-settings-microsoft-Forms
+- name: 设置 Microsoft Forms
+  href: /microsoft-forms/set-up-microsoft-forms
+- name: 关闭或打开 Microsoft Forms
+  href: /microsoft-forms/turn-off-turn-on-microsoft-forms
+- name: 管理员信息常见问题解答
+  href: /microsoft-forms/admin-information
+- name: 查看和解锁为潜在网络钓鱼检测并阻止的的表单或用户
+  href: /microsoft-forms/review-unblock-forms-users-detected-blocked-potential-phishing
+- name: Microsoft Forms 和用户帐户
+  href: /microsoft-forms/microsoft-forms-user-accounts
