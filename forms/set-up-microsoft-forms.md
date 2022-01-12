@@ -5,20 +5,19 @@ author: dumptruckjon
 manager: kathyl
 audience: Admin
 ms.topic: how-to
-ms.service: forms-pro
+ms.service: microsoft-365-education
 ms.localizationpriority: high
 description: 了解 Microsoft 365 管理员如何控制 Microsoft Forms 在组织中如何使用。 此外，了解安全性和合规性问题的答案，例如 Microsoft Forms 数据存储在何处。
-ms.openlocfilehash: abee1557f379f646b277866f32fc0640c0b643cd
-ms.sourcegitcommit: 09bdc82ce67e74495b6c58d9c842e31c17956fc3
+ms.openlocfilehash: bb0e1a6ba8e2085550eb18a8bb393b34b197fe51
+ms.sourcegitcommit: 80aa5565b4008855be844e8e5ab3f2779fba9a83
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "60951405"
+ms.lasthandoff: 01/05/2022
+ms.locfileid: "61723720"
 ---
 # <a name="set-up-microsoft-forms"></a>设置 Microsoft Forms
 
-
-## <a name="overview"></a>[概述](#tab/overview)
+## <a name="overview"></a>概述
 
 Microsoft Forms 允许用户快速而轻松地创建自定义测验、调查、问卷、注册等。 创建测验或表单后，甚至可以在移动设备上使用任何 Web 浏览器来邀请其他人作答。 提交结果后，可以使用内置的分析来评估这些回答内容。 可以轻松地将表单数据（例如，测验结果）导出为 Excel 进行进一步的分析或评分。
 
@@ -29,58 +28,19 @@ Microsoft Forms 允许用户快速而轻松地创建自定义测验、调查、�
 
 :::image type="content" source="./media/set-up-forms-team-event.png" alt-text="预览表单在移动设备上的外观。":::
 
-## <a name="configure"></a>[配置](#tab/configure)
+## <a name="configure"></a>配置
 
 Microsoft 365 管理员可通过以下任务控制 Microsoft Forms 在组织中如何使用：
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>管理任务</strong></th>
-<th><strong>说明</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>关闭或打开 Microsoft Forms</strong></td>
-<td>默认情况下，Microsoft Forms 为你的组织启用。 你可以随时<a href="https://support.microsoft.com/office/turn-off-or-turn-on-microsoft-forms-8dcbf3ab-f2d6-459a-b8be-8d9892132a43">关闭它</a>。</td>
-</tr>
-<tr class="even">
-<td><strong>为组织中的单个人员关闭 Microsoft Forms</strong></td>
-<td>当为特定人员关闭 Microsoft Forms 时，他们将不能使用它，并且 <strong>Forms</strong> 磁贴不会在 Microsoft 365 应用启动器或主页中显示。  了解如何 <a href="https://support.microsoft.com/office/turn-off-or-turn-on-microsoft-forms-8dcbf3ab-f2d6-459a-b8be-8d9892132a43">为特定人员关闭表单</a>。 </td>
-</tr>
-<tr class="odd">
-<td><strong>为 Microsoft Forms 设置 Azure Active Directory 条件访问</strong></td>
-<td><p>若要为 Microsoft Forms 设置条件访问策略，请查阅 <a href="/azure/active-directory/conditional-access/">Azure AD 条件访问文档</a>，并在<strong>云应用</strong>分配中包括<strong>Microsoft Forms</strong>。</p>
-<p><strong>注意：</strong>如果在为 Microsoft Forms 设置条件访问后仍阻止你组织的用户，请确保 SharePoint Online 和 Exchange Online 也通过条件访问被授予了访问权限。 <a href="/azure/active-directory/conditional-access/conditional-access-for-exo-and-spo">了解详细信息</a>。</p></td>
-</tr>
-<tr class="even">
-<td><strong>控制外部共享设置、记录组织中人员的姓名和/或保护表单免受钓鱼攻击</strong></td>
-<td><p>在 Microsoft 365 管理中心中，你可以：</p>
-<ul>
-<li><p>控制是否允许外部用户与组织的用户协作处理表单或测验。</p></li>
-<li><p>选择是否捕获组织中的填写表单的人的姓名。</p></li>
-<li><p>关闭或打开表单上的自动网络钓鱼检测。</p></li>
-</ul>
-<p>详细了解这些 <a href="https://support.microsoft.com/office/administrator-settings-for-microsoft-forms-48161c55-fbae-4f37-8951-9e3befc0248b">管理员设置</a>。</p></td>
-</tr>
-<tr class="odd">
-<td><strong>允许用户将表单插入 PowerPoint</strong></td>
-<td><ol type="1">
-<li><p>登录到 <a href="https://admin.microsoft.com/">https://admin.microsoft.com</a>。</p></li>
-<li><p>单击<strong>设置&gt;</strong><strong>设置</strong>。</p></li>
-<li><p>在<strong>设置</strong>页上的<strong>服务</strong>选项卡下，单击<strong>用户拥有的应用和服务</strong>。</p></li>
-<li><p>选中<strong>允许用户访问 Office 应用商店</strong>选项，以允许用户将表单插入 PowerPoint。</p></li>
-</ol>
-<blockquote>
-<p>请注意，可能需要几个小时更改才能生效。 <a href="/office365/admin/manage/manage-deployment-of-add-ins>Learn more</a>.</p>
-</blockquote></td>
-</tr>
-</tbody>
-</table>
+|管理任务   |说明   |
+|----------|-----------|
+|**关闭或打开 Microsoft Forms**|默认情况下，Microsoft Forms 为你的组织启用。 你可以随时[关闭它](turn-off-turn-on-microsoft-forms.md)。|
+|**为组织中的单个人员关闭 Microsoft Forms**|当为特定人员关闭 Microsoft Forms 时，他们将不能使用它，并且 *Forms* 磁贴不会在 Microsoft 365 应用启动器或主页中显示。 了解如何 [为特定人员关闭表单](turn-off-turn-on-microsoft-forms.md)。|
+|**为 Microsoft Forms 设置 Azure Active Directory 条件访问**|若要为 Microsoft Forms 设置条件访问策略，请查阅 [Azure AD 条件访问文档](/azure/active-directory/conditional-access)，并在*云应用*分配中包括*Microsoft Forms*。 <br/><br/> **注意：** 如果在为 Microsoft Forms 设置条件访问后仍阻止你组织的用户，请确保 SharePoint Online 和 Exchange Online 也通过条件访问被授予了访问权限。 [了解详细信息](/azure/active-directory/conditional-access/block-legacy-authentication)。|
+|**控制外部共享设置、记录组织中人员的姓名和/或保护表单免受钓鱼攻击**|在 Microsoft 365 管理中心中，你可以： <ul><li>控制是否允许外部用户与组织的用户协作处理表单或测验。</li><li>选择是否捕获组织中的填写表单的人的姓名。</li><li>关闭或打开表单上的自动网络钓鱼检测。</li></ul><br/>详细了解这些 [管理员设置](administrator-settings-microsoft-forms.md)。|
+|**允许用户将表单插入 PowerPoint**|<ol><li>登录到 https://admin.microsoft.com。</li><li>单击 **"设置" > ****设置**。</li><li>在**设置**页上的**服务**选项卡下，单击**用户拥有的应用和服务**。</li><li>选中**允许用户访问 Office 应用商店**选项，以允许用户将表单插入 PowerPoint。</li></ol><br/>请注意，更改可能需要几个小时才能生效。 [了解更多](/microsoft-365/admin/manage/manage-deployment-of-add-ins)|
 
-
-## <a name="security--compliance"></a>[安全性与合规性](#tab/security)
+## <a name="security--compliance"></a>安全性与合规性
 
 如果你的公司在内容安全性和数据使用方面有需要符合的法律、法规和技术标准，那么本节内容再合适不过。
 
@@ -90,17 +50,17 @@ Microsoft Forms 数据存储在位于美国和欧洲的服务器上。 所有数
 
 **Microsoft Forms 是否合规？**
 
-自 2018 年 5 月起，Microsoft Forms 已满足 GDPR 合规性要求。 有关详细信息，请参阅[符合 GDPR 的 Microsoft 365 数据主体请求](/microsoft-365/compliance/gdpr-dsr-office365?toc=/microsoft-365/enterprise/toc.json)。
+自 2018 年 5 月起，Microsoft Forms 已满足 GDPR 合规性要求。 有关详细信息，请转到 [GDPR Microsoft 365数据主体请求](/microsoft-365/compliance/gdpr-dsr-office365?toc=/microsoft-365/enterprise/toc.json)。
 
 **FERPA 和 BAA 保护是否部署到位？**
 
 Microsoft Forms 符合 [FERPA](https://www.microsoft.com/trustcenter/compliance/ferpa) 和 [BAA 保护标准](https://www.microsoft.com/TrustCenter/Compliance/HIPAA)。
 
-*即使用户帐户离开我的组织，用户数量和存储的数据量是否有限制？*
+**即使用户帐户离开我的组织，用户数量和存储的数据量是否有限制？**
 
-目前，只要其帐户的预配在组织的联机服务协议中，为其保留数据的用户数没有限制。 也不限制为用户帐户存储的数据量。
+目前，只要其帐户的预配在组织的联机服务协议中，保留其数据的用户数没有限制。 也不限制为用户帐户存储的数据量。
 
-*表单的原始所有者已不在我的组织中，并且/或者其 Microsoft Forms 许可证已删除。与其创建的表单关联的数据会发生什么情况？*
+**表单的原始所有者已不在我的组织中，并且/或者其 Microsoft Forms 许可证已删除。与其创建的表单关联的数据会发生什么情况？**
 
 从租户（Azure AD）中删除用户帐户30 天后，将删除所有与帐户相关的数据。
 
@@ -114,7 +74,7 @@ Microsoft Forms 是一款简单而轻量型的应用，可让你轻松创建调�
 
 任何拥有 Microsoft 帐户 (Hotmail、Live 或 Outlook.com) 的人都可以免费使用 Microsoft Forms。 以下 Office 365 教育版和 Microsoft 365 商业应用版客户也可使用 Microsoft Forms：
 
-Office 365 教育版
+**Office 365 教育版**
 
   - Office 365 A1 Plus
 
@@ -122,7 +82,7 @@ Office 365 教育版
 
   - 在停用前已购买 Office 365 教育版 E3 的现有客户
 
-Microsoft 365 商业应用版
+**Microsoft 365 商业应用版**
 
   - Microsoft 365 商业基础版
 
@@ -164,8 +124,8 @@ Microsoft InfoPath 将由 SharePoint 列表、Flow 和 PowerApps 取代，这些
 
 **可以去哪里提交产品 Bug 或功能请求等反馈？**
 
-欢迎提出宝贵意见\! 若要发送有关 Microsoft Forms 的反馈，请转到表单的右上角，然后选择**更多表单设置** ![更多选项按钮](./media/image2.png)\>**反馈**。
+我们希望收到你的反馈意见！ 若要发送有关Microsoft Forms的反馈，请转到窗体右上角，然后选择"**更多表单设置**"!["更多选项"按钮**](./media/image2.png) > "反馈**"。
 
->[!Note]
->有关详细信息，请参阅 [有关 Microsoft Forms 的常见问题解答](https://support.microsoft.com/office/frequently-asked-questions-about-microsoft-forms-495c4242-6102-40a0-add8-df05ed6af61c)。
+> [!Note]
+> 有关详细信息，请参阅 [有关 Microsoft Forms 的常见问题解答](https://support.microsoft.com/office/frequently-asked-questions-about-microsoft-forms-495c4242-6102-40a0-add8-df05ed6af61c)。
 
